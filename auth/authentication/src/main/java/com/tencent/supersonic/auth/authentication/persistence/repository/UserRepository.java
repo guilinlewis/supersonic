@@ -21,8 +21,6 @@ public interface UserRepository {
 
     UserTokenDO getUserToken(Long tokenId);
 
-    UserTokenDO getUserTokenByName(String tokenName);
-
     void deleteUserTokenByName(String userName);
 
     void deleteUserToken(Long tokenId);
